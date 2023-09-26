@@ -1,0 +1,109 @@
+.all-content {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+.top-nav {
+    position: fixed;
+    background-color: #2c3e50;
+    flex: 0 1 105px;
+    width: 100%;
+}
+
+.top-header {
+    flex: 1 1 auto;
+    background-color: #1abc9c;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer {
+    flex: 0 1 10px;
+}
+
+
+/*  NavBar Elements */
+.top-nav h1 {
+    float: left;
+    font-size: 30px;
+    padding:37px 110px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.top-nav ul {
+    float: right;
+    font-size: 17px;
+    padding:44px 100px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.top-nav li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-nav ul li a:hover {
+    color: #1abc9c;
+}
+/* for scrolling
+.active {
+    background-color: #1abc9c;
+    color: white;
+}
+/*  NavBar Elements END*/
+
+
+/*  Header Elements */
+img {
+    margin-top: 300px;
+}
+
+
+/*  Portfolio   */
+/*Olmasa da oluyor
+.portfolio {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.portfolio-text {
+    text-align: center;
+    color: #2c3e50; 
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: 70px;
+}
+
+.portfolio i {
+    color: #2c3e50; 
+    margin-top: 50px; 
+    width: 100%; 
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    grid-row-gap: 45px;
+}
+
+.grid-item {
+    border-radius: 8px;
+    width: 400px;
+}
+/*  Section END*/
