@@ -306,7 +306,7 @@ input[type="submit"] {
     display: flex;
     flex-direction: row;
     text-align: center;
-    grid-column-gap: 110px;
+    grid-column-gap: 150px;
     margin-top: 200px;
     padding-left: 200px;
     background-color: #2c3e50;
@@ -318,13 +318,13 @@ input[type="submit"] {
     color: white;
     border: 2px solid white;
     border-radius: 50%;
-    padding: 24px 14px;
+    padding: 24px 17px;
     margin-right: 6px;
 }
 
 
 .col {
-    margin-top: 70px;
+    margin-top: 90px;
     color: white;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -337,8 +337,9 @@ input[type="submit"] {
 }
 
 .row-2 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
+    line-height: 150%;
 }
 
 .row-2 a {
