@@ -1,9 +1,7 @@
-
-/*  Footer  ---------------------------------------------------------------------------------------------*/
 .footer {
     display: flex;
-    flex-direction: row;
     text-align: center;
+    flex-direction: row;
     grid-column-gap: 150px;
     margin-top: 200px;
     padding-left: 200px;
@@ -13,7 +11,6 @@
 }
 
 .footer i {
-    color: white;
     border: 2px solid white;
     border-radius: 50%;
     padding: 24px 17px;

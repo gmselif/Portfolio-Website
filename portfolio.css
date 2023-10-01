@@ -23,7 +23,7 @@
 
 .portfolio-star-background {
     display: inline-block;
-    margin-left: -165px;
+    margin-left: -170px;
     background-color:white;
     width: 70px;
     height: 30px;
@@ -31,7 +31,7 @@
 
 .portfolio-star {
     display: inline-block;
-    margin-left: -55px;
+    margin-left: -58px;
     color: #2c3e50;
 }
 
@@ -59,32 +59,29 @@
     width: 100%;
 }
 
-.icon {
+.grid-item > .icon {
+    opacity: 0;
     position: absolute;
-    top: 52%;
+    top: 37%;
     left: 170px;
     color: white;
-    opacity: 0;
-    font-size: 75px;
-    transform: translate(0,-50px);
+    font-size: 70px;
 }
 
-.overlay {
+.grid-item > .overlay {
+    opacity: 0;
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
     height: 100%;
     width: 100%;
-    opacity: 0;
     transition: .3s ease;
     border-radius: 8px;
     background-color: #1abc9c;
   }
 
 .grid-item:hover .overlay{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .grid-item:hover .icon {

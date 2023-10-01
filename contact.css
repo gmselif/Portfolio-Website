@@ -1,29 +1,48 @@
+.contact {
+    text-align: center;
+    width: 100%;
+}
 
-/*  Contact     */
-.contact-text {
+.contact-title {
     text-align: center;
     padding-top: 70px;
     color: #2c3e50;
     font-size: 48px;
     text-transform: uppercase;
     font-weight: 700;
+    margin-bottom: 25px;
 }
 
-.contact > i {
+.contact-starline {
+    display: inline-block;
+    width: 270px;
+    border: 3px solid #2c3e50;
+    border-radius: 5px;
+    margin-left: -120px;
+}
+
+.contact-star-background {
+    display: inline-block;
+    margin-left: -175px;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+}
+
+.contact-star {
     color: #2c3e50;
-    margin-top: 50px; 
+    display: inline-block;
+    margin-left: -58px; 
     margin-bottom: 50px;
-    width: 100%; 
-    text-align: center;
 }
 
 form {
     text-align: center;
 }
 
-input:not([type="submit"]), textarea {    /*Form input elements other than submit are selected. */
+textarea, input:not([type="submit"]) {  /*Form elements other than submit button are selected. */
     margin-top: 50px;        
-    padding-bottom: 20px;       /*Distance between text - border line*/
+    padding-bottom: 20px;               /*Distance between text - border line*/
     width: 50%;
     border: none;
     color: #212529;;
@@ -32,7 +51,7 @@ input:not([type="submit"]), textarea {    /*Form input elements other than submi
     font-weight: 400;
 }
 
-input:focus {
+textarea, input:focus {
     outline: none;
     border-bottom:1px solid aquamarine;
 }
