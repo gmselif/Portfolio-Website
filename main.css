@@ -1,0 +1,20 @@
+@import "reset.css";
+@import "navbar.css";
+@import "profile.css";
+@import "portfolio.css";
+@import "about.css";
+@import "contact.css";
+@import "footer.css";
+
+body {
+    overflow-x: hidden;
+}
+
+body > div {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/*
+.navbar, .profile, .portfolio, .about, .contact, .footer{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+*/

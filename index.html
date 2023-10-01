@@ -3,42 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/3fd3682f37.js" crossorigin="anonymous"></script>
 
     <title>Freelancer - Theme Preview - Start Bootstrap</title>
 </head>
 <body>
+
+    <!--Navbar Section-->
     <div class="navbar">
-        <h1><a href="#">Start Bootstrap</a></h1>
+        <h1 class="navbar-title"><a href="#">Start Bootstrap</a></h1>
     
-        <ul>
-            <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Contact">Contact</a></li>
+        <ul class="navbar-list">
+            <li class="navbar-list-item"><a href="#Portfolio">Portfolio</a></li>
+            <li class="navbar-list-item"><a href="#About">About</a></li>
+            <li class="navbar-list-item"><a href="#Contact">Contact</a></li>
         </ul>
     </div>
     
+    <!--Profile Section-->
     <div class="profile">
-        <img src="Pictures/avatar.svg" width="240">
+        <img src="Pictures/avatar.svg" class="profile-img">
 
-        <div class="profile-text">Start Bootstrap</div>
+        <div class="profile-title">Start Bootstrap</div>
         
-        <div class="star-line">
-            <hr class="line">
-            <div class="box"></div>
-            <i class="fa-solid fa-star fa-2xl"></i>
-        </div>
+        <hr class="profile-starline">
+        <div class="profile-star-background"></div>
+        <i class="profile-star fa-solid fa-star fa-2xl"></i>
             
-        <div class="profile-statu">Graphic Artist - Web Designer - Illustrator</div>
+        <div class="profile-text">Graphic Artist - Web Designer - Illustrator</div>
     </div>
     
-
-
+    <!--Portfolio Section-->
     <div class="portfolio" id="Portfolio">
-        <div class= "portfolio-text">Portfolio</div>
-        <i class="fa-solid fa-star fa-2xl"></i>
+        <div class= "portfolio-title">Portfolio</div>
+
+        <hr class="portfolio-starline">
+        <div class="portfolio-star-background"></div>
+        <i class="portfolio-star fa-solid fa-star fa-2xl"></i>
 
         <div class="grid-container">
             <img src="Pictures/p1.png" class="grid-item">
@@ -47,12 +49,10 @@
             <img src="Pictures/p4.png" class="grid-item">
             <img src="Pictures/p5.png" class="grid-item">
             <img src="Pictures/p6.png" class="grid-item">
-            <div class="middle">
-                <i class="fa-solid fa-plus" style="color: #ffffff;"></i>        
-            </div>
         </div>
     </div>
 
+    <!--About Section-->
     <div class="about">
         <div class="about-text">About</div>
         <i class="fa-solid fa-star fa-2xl"></i>
@@ -69,6 +69,7 @@
         </button></div>
     </div>
 
+    <!--Contact Section-->
     <div class="contact">
         <div class="contact-text">Contact Me</div>
         <i class="fa-solid fa-star fa-2xl"></i>
@@ -86,6 +87,7 @@
         </form>
     </div>
 
+    <!--Footer Section-->
     <div class="footer">
         <div class="col">
             <div class="row-1">Location</div>
@@ -108,6 +110,7 @@
         </div>
     </div>
 
+    <!--Copy Right Section-->
     <div class="copy-right">
         Copyright © Your Website 2023
     </div>

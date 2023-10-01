@@ -1,0 +1,56 @@
+
+/*  Contact     */
+.contact-text {
+    text-align: center;
+    padding-top: 70px;
+    color: #2c3e50;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.contact > i {
+    color: #2c3e50;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    width: 100%; 
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input:not([type="submit"]), textarea {    /*Form input elements other than submit are selected. */
+    margin-top: 50px;        
+    padding-bottom: 20px;       /*Distance between text - border line*/
+    width: 50%;
+    border: none;
+    color: #212529;;
+    border-bottom:1px solid #ced4da;;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+input:focus {
+    outline: none;
+    border-bottom:1px solid aquamarine;
+}
+
+input[type="submit"] {
+    float: left;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    padding: 20px 30px;
+    color: #ffffff;
+    background-color:#1abc9c;
+    border: none;  
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 400;  
+}
+
+:disabled {
+    opacity: 0.5;
+}
